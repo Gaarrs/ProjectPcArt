@@ -1,0 +1,376 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0,7em;
+}
+
+body {
+    background-color: white;
+    outline-width: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    background-color:white;
+    margin-top: 0px;
+}
+#logo {
+    width: 130px;
+    height: auto;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    float:left;
+}
+
+#logo-text {
+    font-family: 'Staatliches', serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    margin: 15px;
+}
+
+.nav {
+    float: right;
+    margin: 10px 30%;
+    padding-top: 7px;
+}
+
+.nav-items {
+    padding: 5px 7px;
+    margin: 20px;
+    font-size: 1.1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-items:hover {
+    border: 2px solid black;
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../img/1.jpg');
+    background-color: rgb(31, 0, 51);
+    background-size: auto;
+    background-blend-mode: exclusion;
+    background-attachment: fixed;
+}
+
+.name {
+    position: relative;
+    left: 30%;
+    top: 30%;
+    width: 40%;
+    padding: 10px;
+    color: rgb(223, 223, 223);
+    background-color: rgba(20, 20, 20, 0.788);
+    border-radius: 40px;
+}
+
+.name h1, h3 {
+    font-family: 'Roboto Slab', serif;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.name h1 {
+    font-size: 3.6em;
+}
+
+.name h3 {
+    font-size: 2.5em;
+}
+
+.options {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.option-item {
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: rgba(0, 0, 0, 0.63);
+    
+}
+.option-item:nth-child(2) {
+    border: 2px dotted rgba(192, 192, 192, 0.712);
+    border-top: none;
+    border-bottom: none;
+}
+
+.option-item h2, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    padding-top: 10%;
+    margin-top:0px;
+    width:100%;
+    height: 500px;
+    top: 1px;
+    background-color: rgb(191, 174, 199);
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.about-info {
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top:2%;
+    margin-bottom: 0px;
+}
+
+.about-item {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    color: rgb(223, 223, 223);
+    margin-left: 10%;
+}
+
+.about-item span {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.options-header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.options-header h2 {
+    top: 25%;
+    text-align: center;
+    font-size: 2.3em;
+    font-family: 'Roboto Slab', serif;
+    margin:0px;
+    color: rgb(83, 83, 83);
+    position: relative;
+}
+
+.options-info {
+    width:100%;
+    height: auto; 
+    background-color: white;
+}
+
+.tabs-item {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    color: rgb(83, 83, 83);
+    margin-right: 30px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    left: 31%;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs-item:hover {
+    border: 2px solid black;
+}
+
+.tab {
+    width: 100%;
+    height: 450px;
+    padding-top: 0%;
+    margin: 50px;
+}
+
+.tab-image {
+    left: 3%;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.tab-image img {
+    width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.option-descr {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    color: rgb(83, 83, 83);
+    width: 600px;
+    height: auto;
+    float: right;
+    position: relative;
+    right: 10%;
+    padding-top: 6%;
+}
+
+.callback {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(25, 0, 39);
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+    padding: auto;
+}
+
+.form-agit {
+    max-width: 600px;
+    position: relative;
+    float: left;
+    top: 27%;
+    padding-left: 5%;
+
+}
+
+.form-agit h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.6em;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(216, 216, 216);
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.form-agit h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.1em;
+}
+
+.form-item {
+    text-align: center;
+    min-width: 600px;
+    height: 400px;
+    padding-top: 7%;
+    right: 15%;
+    top: 23%;
+    position: relative;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+form input {
+    font-size: 1.9em;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.review {
+    background-color: white;
+    background-image: url(../img/2.png);
+    background-color: black;
+    background-position-y: 100%;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.review-name {
+    width:100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(255, 255, 255, 255);
+    
+}
+
+.review-name h2 {
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.3em;
+}
+
+.review-item {
+    max-width: 600px;
+    background-color: rgba(194, 194, 194, 0.719);
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 50px;
+}
+
+.review-item h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+.review-item p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.review-image {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    border-radius: 200px;
+    border: 2px solid black;
+    left:33%;
+    margin-top: 30px;
+    background-image: url(../img/10.jpg);
+    background-position: center;
+    background-size: 130%;
+}
+
+.review-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer #logo {
+    float:none;
+    margin: 5px;
+    background-color: rgb(196, 196, 196);
+    border-color:rgb(196, 196, 196);
+}
+
+.cops {
+    position: relative;
+    color: rgb(138, 138, 138);
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tab.hide {
+    display: none;
+}
+
+.tab.show {
+    display: block;
+}
+
+.active {
+    background-color: rgb(15, 15, 15);
+    color: rgb(196, 196, 196);
+    border: black;
+}
